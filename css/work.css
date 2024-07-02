@@ -67,7 +67,7 @@ transition: transform calc(var(--d) * 1.5) var(--e); transition: transform calc(
 /* .copy {font-family: 'Rozha One', serif; font-size: 1.8rem; line-height: 1.35;} */
 .page4_btn {cursor: pointer; width: 150px; height: 50px; background: #555;}
 .page4_btn a {color: white; text-decoration: none; font-family: 'Montserrat'; font-size: 1.2rem;}
-.page4_btn:hover {background-color: #a56147; transition: all .4s;}
+.page4_btn:hover {background-color: #4a66ac; transition: all .4s;}
 /* .page4_btn:focus {outline: 1px dashed yellow; outline-offset: 3px;} */
 
 @media (hover: hover) and (min-width: 500px) {
