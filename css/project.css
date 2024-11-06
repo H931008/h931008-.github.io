@@ -133,7 +133,7 @@ ul,li {list-style: none;}
 .cd-slider-navigation {
 /* you won't see this element in the html but it will be created using jQuery */
 position: absolute; z-index: 3; left: 50%; right: auto; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); bottom: 30px;}
-.cd-slider-navigation li {display: inline-block; margin: 0 .17em;}
+.cd-slider-navigation li {display: inline-block; margin: 0 0.1em;}
 .cd-slider-navigation li.selected a {background-color: #ffffff;}
 .cd-slider-navigation a {display: block; height: 8px; width: 8px; border-radius: 50%; color: transparent;
 /* image replacement */
