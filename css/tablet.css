@@ -43,7 +43,7 @@
     .txt1 {color: #000; font-family: 'YdestreetB'; font-size: 16px; text-align: center; position: relative; top: 362px;}
     .dia {font-family: 'YUniverse-B'; position: relative; top: 0px; bottom: 0px;}
     .ho .typing-txt {display: none;}
-    .ho .typing {position: relative; text-align: center; left: 50px; top: 298px; font-size: 44px; font-weight: 900; font-family: 'YdestreetB'; display: inline-block; color: #000; animation-name: cursor; animation-duration: 0.8s; animation-iteration-count: infinite; border-right: 4px solid #ccc;}
+    .ho .typing {position: relative; text-align: center; left: 150px; top: 298px; font-size: 44px; font-weight: 900; font-family: 'YdestreetB'; display: inline-block; color: #000; animation-name: cursor; animation-duration: 0.8s; animation-iteration-count: infinite; border-right: 4px solid #ccc;}
     
     @keyframes cursor {
     0% {border-right: 3px solid #fff;}
@@ -54,8 +54,7 @@
     .txt2 {font-family: 'Somi'; font-size: 28px; color: #4a66ac; text-align: center; position: relative; top: 408px; left: -5px; z-index: 1;}
     .txt3 {font-family: 'YdestreetB'; font-size: 12px; text-align: center; color: #000; letter-spacing: 10px; position: relative; left: 0px; top: 195px;}
     .txt4 {font-family: 'YdestreetB'; font-size: 12px; color: #000; text-align: center; letter-spacing: 10px; position: relative; top: 250px;}
-    .ho .txtbox {font-weight: 600; font-size: 10px; letter-spacing: 1px; color: #000; text-align: center; position: relative; left: 0px; top: 504px; line-height: 30px;}
-    
+    .ho .txtbox {font-weight: 600; font-size: 14px; letter-spacing: 1px; color: #000; text-align: center; position: relative; left: 0px; top: 160px; line-height: 30px;}
     }
 
 /* ABOUT */
@@ -157,7 +156,7 @@
     .cd-slider p {position: relative; left: 2px;}
     .cd-slider h2 {font-family: 'YUniverse-B'; font-size: 32px;}
     .cd-slider b {font-family: 'Noto Sans KR'; font-weight: 500; font-size: 16px;}
-    .cd-slider-navigation {width: 405px; height: 40px; display: flex; text-align: center; z-index: 1; list-style: none; padding: 0px 0px; background-color: rgba(0, 0, 0, 0.8); letter-spacing: -0.7px;
+    .cd-slider-navigation {width: 910px; height: 44px; display: flex; text-align: center; z-index: 1; list-style: none; padding: 0px 0px; background-color: rgba(0, 0, 0, 0.8); letter-spacing: -0.7px;
     /* fixes a bug on Firefox with ul.cd-slider-navigation z-index */ -webkit-transform: translateZ(2px) translateX(-50%); -moz-transform: translateZ(2px) translateX(-50%);
     -ms-transform: translateZ(2px) translateX(-50%); -o-transform: translateZ(2px) translateX(-50%); transform: translateZ(2px) translateX(-50%); -webkit-transition: -webkit-transform 0.3s; -moz-transition: -moz-transform 0.3s; transition: transform 0.3s; position:absolute; bottom: 348px; left: 212px;}
     .cd-slider-navigation.slider-animating {
@@ -180,7 +179,7 @@
     .page-content {margin-right: 20px;}
     .card:after {background: none;}
     .page4_btn {position: absolute; top: 35px; width: 100px; height: 30px;}
-    .page-content {grid-template-columns: repeat(3, 1fr); grid-gap: 1rem; padding: 1rem; margin: 50px auto;}
+    .page-content {grid-template-columns: repeat(5, 1fr); grid-gap: 1rem; padding: 6rem; margin: 100px auto;}
     .card {height: 200px;}
     }
 
@@ -205,7 +204,7 @@
 /* CONTACT */
 @media screen and (min-width: 1180px) and (max-width: 820px) {
     .co {width: 100%; height: 100%; background-image: url(../images/bg1.jpg);}
-    .co .box {width: 396px; height: 300px; background: #fff; /* border: 4px solid #4a66ac; */ border-radius: 15px; box-shadow: 1px 1px 8px #000; position: absolute; top: 282px; left: 17px;}
+    .co .box {width: 396px; height: 300px; background: #fff; /* border: 4px solid #4a66ac; */ border-radius: 15px; box-shadow: 1px 1px 8px #000; position: absolute; top: 260px; left: 17px;}
     .co .box .bar {width: 396px; border-bottom: 3px solid #4a66ac; position: relative; top: 36px;}
     .co .box .window_box1 {width: 20px; border-bottom: 3px solid #4a66ac; position: relative; left: 308px; bottom: -15px;}
     .co .box .window_box2 {width: 16px; height: 16px; border: 3px solid #4a66ac; background: #fff; position: relative; top: 2px; left: 343px;}
@@ -218,7 +217,7 @@
     .co .txt h2 {width: 500px; height: 100px; text-align: center; font-family: 'YdestreetL'; font-size: 32px; letter-spacing: 1px; color: #000; position: absolute; top: 163px; right: 190px}
     .co .txt .bold {width: 500px; text-align: center; font-family: 'YdestreetB'; font-size: 32px; font-weight: 900; letter-spacing: 1px; color: #4a66ac; position: absolute; top: 236px; right: 192px;}
 
-    .co .btn {width: 396px; height: 100px; position: relative; left: 26px; top: 178px;}
+    .co .btn {width: 396px; height: 100px; position: relative; left: 375px; top: 178px;}
     .co .btn a {text-decoration: none; position: relative; bottom: 30px;}
     .co .btn .yes_box {width: 183px; height: 63px; line-height: 65px; text-align: center; background: #eee; border-radius: 8px; position: absolute; top: 27px; left: 1px;}
     .co .btn .yes_box .yes {text-align: center; font-family: 'YdestreetL'; font-size: 40px; letter-spacing: -2px; color: #000; position: relative; top: 3px; left: 0px;}
