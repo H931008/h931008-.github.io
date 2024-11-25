@@ -41,11 +41,11 @@
     .home {width: 100%; height: 100%; position: absolute; left: 0px; bottom: 0px;}
     .ho {width: 100%; height: 100%;}
     
-    .txt1 {color: #000; font-family: 'YdestreetB'; text-align: center; position: relative; top: 200px; left: 5px;}
+    .txt1 {color: #000; font-family: 'YdestreetB'; text-align: center; position: relative; top: 160px; left: 6px;}
     .dia {font-family: 'YUniverse-B'; position: relative; top: 0px; bottom: 1px;}
     
     .ho .typing-txt {display: none;}
-    .ho .typing {position: relative; text-align: center; left: 225px; top: 83px; font-size: 100px; font-weight: 900; font-family: 'YdestreetB'; display: inline-block; color: #000; animation-name: cursor; animation-duration: 0.8s; animation-iteration-count: infinite; border-right: 4px solid #ccc;}
+    .ho .typing {position: relative; text-align: center; left: 225px; top: 43px; font-size: 100px; font-weight: 900; font-family: 'YdestreetB'; display: inline-block; color: #000; animation-name: cursor; animation-duration: 0.8s; animation-iteration-count: infinite; border-right: 4px solid #ccc;}
     
     @keyframes cursor {
         0% {border-right: 5px solid #fff;}
@@ -53,11 +53,11 @@
         100% {border-right: 5px solid #fff;}
     }
     
-    .txt2 {font-family: 'Somi'; font-size: 50px; color: #4a66ac; text-align: center; position: relative; top: 311px; right: 0px; z-index: 1;}
-    .txt3 {font-family: 'YdestreetB'; font-size: 24px; text-align: center; color: #000; letter-spacing: 12px; position: relative; left: 10px; bottom: 142px;
+    .txt2 {font-family: 'Somi'; font-size: 50px; color: #4a66ac; text-align: center; position: relative; top: 271px; right: 0px; z-index: 1;}
+    .txt3 {font-family: 'YdestreetB'; font-size: 24px; text-align: center; color: #000; letter-spacing: 12px; position: relative; left: 10px; bottom: 182px;
     }
     .txt4 {font-family: 'YdestreetB'; font-size: 24px; color: #000; text-align: center; letter-spacing: 12px; position: relative; top: 34px;}
-    .ho .txtbox {font-weight: 600; font-size: 12px; letter-spacing: 1px; color: #000; text-align: center; position: relative; left: 0px; top: 80px; line-height: 30px;}
+    .ho .txtbox {font-weight: 600; font-size: 12px; letter-spacing: 1px; color: #000; text-align: center; position: relative; left: 0px; top: 90px; line-height: 30px;}
     }
 
 /* ABOUT */
@@ -65,7 +65,7 @@
     .ab {width: 100%; height: 100%; background-image: url(../images/bg1.jpg);}
     .ab_box_bar {width: 100%; height: 30px; background: #4a66ac;}
 
-    .ab_box {width: 430px; height: 932px; text-align: left; position: relative; top: -40px; left: 0px;}
+    .ab_box {width: 430px; height: 932px; text-align: left; position: relative; top: 0px; left: 0px;}
     .ab_box .title_text {font-family: 'Montserrat'; color: #4a66ac; font-size: 28px; position: relative; top: 25px; left: 15px; letter-spacing: -2px; opacity: 1;}
     .ab_box .profile_img {width: 398px; height: 477px; background-image: url(../images/profile_img.jpg); background-size: contain; position: absolute; left: 15px; top: 157px;}
     
